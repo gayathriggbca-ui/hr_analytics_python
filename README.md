@@ -43,7 +43,7 @@ Missing values and suspicious records were flagged for review rather than altere
 - **Workforce:** 81.9% Active (2,458), 10.7% Voluntarily Terminated (321), 2.9% Leave of Absence, 2.3% Future Start, 2.2% Terminated for Cause.
 - **Hiring:** Steady at about 600 hires a year from 2019 to 2022 (peak 620 in 2022). 2018 and 2023 are partial years (data runs August 2018 to August 2023).
 - **Terminations (387 employees):** Involuntary 107, Voluntary 98, Resignation 96, Retirement 86.
-- **Consistency issue:** `TerminationType` is filled for Active employees too, so status and exit fields do not align.
+- **Consistency issue:** 991 Active employees have an exit date, which conflicts with their status. The other 1,467 Active employees have no exit date and "Unk" as TerminationType, which is expected.
 
 ## Tools
 
